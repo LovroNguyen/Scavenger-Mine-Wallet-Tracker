@@ -38,7 +38,7 @@ Just follow these 3 simple steps 👇
 
 ### Step 1️⃣ — Download the latest release
 
-Get the latest version of `wallet_tracker.exe` from your release folder or shared link.
+Download the latest release of `wallet_tracker.exe` [release](https://github.com/LovroNguyen/Scavenger-Mine-Wallet-Tracker/releases/) page.
 
 Example:
 ```
