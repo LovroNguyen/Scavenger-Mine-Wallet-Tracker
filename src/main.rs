@@ -134,7 +134,7 @@ fn run_program() {
         worksheet.write_string(0, (i + 1) as u16, day, &fmt).unwrap();
     }
     worksheet
-        .write_string(0, (existing_cols.len() + 1) as u16, "Total", &fmt)
+        .write_string(0, (existing_cols.len() + 1) as u16, "Total Night per address", &fmt)
         .unwrap();
 
     let mut row_idx = 1;
@@ -151,7 +151,10 @@ fn run_program() {
                     .write_number(row_idx, (i + 1) as u16, val, &fmt)
                     .unwrap();
                 total_all[i] += val;
-                row_sum += val;
+
+                if col.contains("Night") {
+                    row_sum += val;
+                }
             }
 
             worksheet
@@ -161,18 +164,48 @@ fn run_program() {
         }
     }
 
-    worksheet.write_string(row_idx, 0, "Total All", &fmt).unwrap();
-    let grand_sum: f64 = total_all.iter().sum();
+    // --- Total Solution ---
+    worksheet.write_string(row_idx, 0, "Total Solution", &fmt).unwrap();
 
-    for (i, val) in total_all.iter().enumerate() {
+    let mut grand_solution = 0.0;
+    for (i, col) in existing_cols.iter().enumerate() {
+        let val = total_all[i];
         worksheet
-            .write_number(row_idx, (i + 1) as u16, *val, &fmt)
+            .write_number(row_idx, (i + 1) as u16, val, &fmt)
             .unwrap();
-    }
 
+        if col.contains("Solution") {
+            grand_solution += val;
+        }
+    }
     worksheet
-        .write_number(row_idx, (existing_cols.len() + 1) as u16, grand_sum, &fmt)
+        .write_number(row_idx, (existing_cols.len() + 1) as u16, grand_solution, &fmt)
         .unwrap();
+
+    // --- Total Night ---
+    let total_night_row = row_idx + 1;
+    worksheet.write_string(total_night_row, 0, "Total Night", &fmt).unwrap();
+
+    let mut grand_night = 0.0;
+    for (i, col) in existing_cols.iter().enumerate() {
+        let val = total_all[i];
+        worksheet
+            .write_number(total_night_row, (i + 1) as u16, val, &fmt)
+            .unwrap();
+
+        if col.contains("Night") {
+            grand_night += val;
+        }
+    }
+    worksheet
+        .write_number(
+            total_night_row,
+            (existing_cols.len() + 1) as u16,
+            grand_night,
+            &fmt,
+        )
+        .unwrap();
+
 
     workbook.close().expect("❌ Failed to save Excel file");
     println!("\n✅ Successfully updated file: {}", FILE_NAME);
