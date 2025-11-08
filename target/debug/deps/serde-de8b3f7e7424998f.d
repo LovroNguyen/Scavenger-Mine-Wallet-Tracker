@@ -1,0 +1,14 @@
+C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\deps\serde-de8b3f7e7424998f.d: C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\build\serde-eb917dd564a7a0e2\out/private.rs
+
+C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\deps\libserde-de8b3f7e7424998f.rlib: C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\build\serde-eb917dd564a7a0e2\out/private.rs
+
+C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\deps\libserde-de8b3f7e7424998f.rmeta: C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\build\serde-eb917dd564a7a0e2\out/private.rs
+
+C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\Lovro\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\build\serde-eb917dd564a7a0e2\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\Lovro\\Downloads\\Compressed\\Windows\\wallet_tracker\\target\\debug\\build\\serde-eb917dd564a7a0e2\\out
