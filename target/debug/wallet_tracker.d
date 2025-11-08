@@ -1,1 +1,1 @@
-C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\target\debug\wallet_tracker.exe: C:\Users\Lovro\Downloads\Compressed\Windows\wallet_tracker\src\main.rs
+D:\Documents\WorkSpace\github\Scavenger-Mine-Wallet-Tracker\target\debug\wallet_tracker.exe: D:\Documents\WorkSpace\github\Scavenger-Mine-Wallet-Tracker\src\main.rs
