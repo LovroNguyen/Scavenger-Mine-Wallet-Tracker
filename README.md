@@ -135,13 +135,6 @@ to any computer (no Rust installation required).
 
 ---
 
-## 🧠 Credits
-
-Developed by **Anh Trí & Nghĩa AI**  
-Inspired by the Midnight Scavenger network tracking project.
-
----
-
 ## 📜 License
 
 MIT License — feel free to fork, modify, and improve.
